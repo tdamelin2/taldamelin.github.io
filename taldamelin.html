@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Websitepic.JPG">
+    <title>Tal Damelin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('Websitepic.jpg');
+        background-size: cover;
+      }
+      
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .social-icons a {
+        color: white;
+        font-size: 30px;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      /* Media queries */
+      @media only screen and (min-width: 768px) {
+        .circle {
+          width: 300px;
+          height: 300px;
+        }
+        
+        .social-icons a {
+          font-size: 40px;
+        }
+        
+        .text {
+          font-size: 30px;
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="circle"></div>
+    <div class="text">
+        <p>20, Student, Israel</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/tal-d-904388198/"><i class="fa fa-linkedin-square"></i></a>
+      <a href="mailto:taldamelin@gmail.com"><i class="fa fa-envelope"></i></a>
+      <a href="https://github.com/tdamelin2/tdamelin2"><i class="fa fa-github"></i></a>
+    </div>
+  </body>
+</html>
